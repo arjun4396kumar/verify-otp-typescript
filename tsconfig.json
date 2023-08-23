@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "moduleResolution": "Node",
+    "declaration": true,
+    "declarationDir": "dist/types",
+  },
+  // "files": ["index.js"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "test/**/*"],
+}
